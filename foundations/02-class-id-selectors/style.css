@@ -1,19 +1,19 @@
-p {
+.impar {
     background-color: #ee4c5480;
     font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
-.second {
+#dos{
     color: #0000ff;
     font-size: 36px;
 }
 
-.three {
+.font {
     font-size: 24px;
 }
 
-.four {
+#cuatro {
     background-color: #90ee90;
     font-weight: bold;
-    font-size: 24px;
+    
 }
