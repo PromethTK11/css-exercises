@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -24,4 +27,52 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  gap: 4px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #eeee;
+  margin-top: auto;
+  padding: 4px;
+  gap: 4px;
+}
+
+.left-links {
+  display: flex;
+  align-self: flex-start;
+  color:#eee;
+}
+
+.right-links{
+  display: flex;
+  margin-right: 8px;
+  color:#eee;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
 }
